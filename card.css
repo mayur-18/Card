@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    font-family: 'poppins';
+    justify-content: center;
+    align-items: center;
+    
+
+   
+}
+
+
+
+.card {
+
+    /* height: 500px; */
+    width: 344px;
+    border: 2px solid #dde5eb;
+    text-align: center;
+    border-radius: 15px;
+    margin: 45px 45px 45px ;
+    position: relative;
+
+}
+
+img {
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.capsule {
+    display: flex;
+    width: 80%;
+    margin-left: 15px;
+    
+}
+
+.box {
+    height: 30px;
+    width: 100px;
+    border: 2px solid rgb(216, 206, 216);
+    border-radius: 20px;
+    text-align: center;
+    margin: 8px;
+    color: #919da9;
+    padding: 2px;
+    
+
+}
+
+h2 {
+    text-align: left;
+    margin: 10px 15px;
+    color: #182f3a;
+    text-transform: capitalize;
+}
+
+.info {
+    text-align: left;
+    margin: auto 15px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #919da9;
+    font-weight: 400;
+}
+
+#submit-button {
+    color: #469cff;
+    background-color: #e0efff;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    margin: 20px;
+    height: auto;
+    font-size: 15px;
+    font-weight: 600;
+
+}
